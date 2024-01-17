@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;;
+}
+.container{
+    padding-top: 30px ;
+    background-color: black;
+    color: white;
+    
+}
+.container h1{
+/* text-align: center; */
+font-size: 30px;
+font-weight: bold;
+margin-left: 20px;
+
+}
+
+.container hr{
+    margin-top:40px  ;
+    border: 2px solid red;
+    margin-left:20px;
+    margin-right: 20px ;
+}
+.container .Search-emoji{
+    margin-left: 20px;
+    margin-top: 20px ;
+    height: 30px;
+    width: 200px;
+    font-size: x-large;
+    border: 2px solid rgb(241, 73, 12);
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px 2px  burlywood ;
+    padding: 10px ;
+    margin-bottom: 20px ;
+    color: orangered;
+}
+.container .btn{
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 10px ;
+    position: absolute;
+    border-radius: 5px ;
+    border: 2px solid  white;
+    box-shadow: 2px 2px 2px   rgb(241, 73, 12) ;
+    background-color: rgb(241, 73, 12);
+    color: white;
+}
+.container .btn:hover{
+    background-color: rgb(220, 27, 152);
+    box-shadow: 2px 2px 2px  rgb(220, 27, 152);
+}
